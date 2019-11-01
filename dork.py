@@ -1,5 +1,7 @@
 import urllib2 , cookielib , random , re , sys , socket , time , httplib , ssl
-
+import os
+os.system('cls') # clear windows
+os.system('clear') # clear linux or mac os
 
 if sys.platform == "linux2" or sys.platform == "linux":
 	R = ("\033[31m")
